@@ -1,0 +1,67 @@
+﻿l_german:
+ # Intellect
+ trait_intellect_good_bonus_1:0 "Genie - 1 Stern"
+ trait_intellect_good_bonus_2:0 "Genie - 2 Sterne"
+ trait_intellect_good_bonus_3:0 "Genie - 3 Sterne"
+ trait_intellect_good_bonus_4:0 "Genie - 4 Sterne"
+ trait_intellect_good_bonus_5:0 "Genie - 5 Sterne"
+
+ trait_intellect_good_bonus_1_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist dieser Charakter brillant."
+ trait_intellect_good_bonus_2_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist dieser Charakter brillant."
+ trait_intellect_good_bonus_3_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist dieser Charakter brillant."
+ trait_intellect_good_bonus_4_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist dieser Charakter brillant."
+ trait_intellect_good_bonus_5_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist dieser Charakter brillant."
+
+ trait_intellect_good_bonus_1_character_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist [ROOT.GetCharacter.GetFirstNameNoTooltip] brillant."
+ trait_intellect_good_bonus_2_character_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist [ROOT.GetCharacter.GetFirstNameNoTooltip] brillant."
+ trait_intellect_good_bonus_3_character_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist [ROOT.GetCharacter.GetFirstNameNoTooltip] brillant."
+ trait_intellect_good_bonus_4_character_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist [ROOT.GetCharacter.GetFirstNameNoTooltip] brillant."
+ trait_intellect_good_bonus_5_character_desc:0 "Dank eines überragenden Intellekts und einer dazu passenden Geistesschärfe ist [ROOT.GetCharacter.GetFirstNameNoTooltip] brillant."
+ 
+ # Physique
+ trait_physique_good_bonus_male_1:0 "Herkules - 1 Stern"
+ trait_physique_good_bonus_female_1:0 "Amazone - 1 Stern"
+ trait_physique_good_bonus_male_2:0 "Herkules - 2 Sterne"
+ trait_physique_good_bonus_female_2:0 "Amazone - 2 Sterne"
+ trait_physique_good_bonus_male_3:0 "Herkules - 3 Sterne"
+ trait_physique_good_bonus_female_3:0 "Amazone - 3 Sterne"
+ trait_physique_good_bonus_male_4:0 "Herkules - 4 Sterne"
+ trait_physique_good_bonus_female_4:0 "Amazone - 4 Sterne"
+ trait_physique_good_bonus_male_5:0 "Herkules - 5 Sterne"
+ trait_physique_good_bonus_female_5:0 "Amazone - 5 Sterne"
+
+ trait_physique_good_bonus_1_desc:0 "Kräftig, gesund und stark: Der Körper dieses Charakters ist ein Phänomen."
+ trait_physique_good_bonus_2_desc:0 "Kräftig, gesund und stark: Der Körper dieses Charakters ist ein Phänomen."
+ trait_physique_good_bonus_3_desc:0 "Kräftig, gesund und stark: Der Körper dieses Charakters ist ein Phänomen."
+ trait_physique_good_bonus_4_desc:0 "Kräftig, gesund und stark: Der Körper dieses Charakters ist ein Phänomen."
+ trait_physique_good_bonus_5_desc:0 "Kräftig, gesund und stark: Der Körper dieses Charakters ist ein Phänomen."
+
+ trait_physique_good_bonus_1_character_desc:1 "Kräftig, gesund und stark: Der Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Phänomen."
+ trait_physique_good_bonus_2_character_desc:1 "Kräftig, gesund und stark: Der Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Phänomen."
+ trait_physique_good_bonus_3_character_desc:1 "Kräftig, gesund und stark: Der Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Phänomen."
+ trait_physique_good_bonus_4_character_desc:1 "Kräftig, gesund und stark: Der Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Phänomen."
+ trait_physique_good_bonus_5_character_desc:1 "Kräftig, gesund und stark: Der Körper von [ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein Phänomen."
+
+ # Beauty
+ trait_beauty_good_bonus_1:0 "Wunderschön - 1 Stern"
+ trait_beauty_good_bonus_2:0 "Wunderschön - 2 Sterne"
+ trait_beauty_good_bonus_3:0 "Wunderschön - 3 Sterne"
+ trait_beauty_good_bonus_4:0 "Wunderschön - 4 Sterne"
+ trait_beauty_good_bonus_5:0 "Wunderschön - 5 Sterne"
+
+ trait_beauty_good_bonus_1_desc:0 "Bezaubernd, betörend und liebreizend: Dieser Charakter überstrahlt mit seiner Schönheit die meisten anderen."
+ trait_beauty_good_bonus_2_desc:0 "Bezaubernd, betörend und liebreizend: Dieser Charakter überstrahlt mit seiner Schönheit die meisten anderen."
+ trait_beauty_good_bonus_3_desc:0 "Bezaubernd, betörend und liebreizend: Dieser Charakter überstrahlt mit seiner Schönheit die meisten anderen."
+ trait_beauty_good_bonus_4_desc:0 "Bezaubernd, betörend und liebreizend: Dieser Charakter überstrahlt mit seiner Schönheit die meisten anderen."
+ trait_beauty_good_bonus_5_desc:0 "Bezaubernd, betörend und liebreizend: Dieser Charakter überstrahlt mit seiner Schönheit die meisten anderen."
+
+ trait_beauty_good_bonus_1_character_desc:0 "Bezaubernd, betörend und liebreizend: [ROOT.GetCharacter.GetFirstNameNoTooltip] überstrahlt mit [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Schönheit die meisten anderen."
+ trait_beauty_good_bonus_2_character_desc:0 "Bezaubernd, betörend und liebreizend: [ROOT.GetCharacter.GetFirstNameNoTooltip] überstrahlt mit [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Schönheit die meisten anderen."
+ trait_beauty_good_bonus_3_character_desc:0 "Bezaubernd, betörend und liebreizend: [ROOT.GetCharacter.GetFirstNameNoTooltip] überstrahlt mit [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Schönheit die meisten anderen."
+ trait_beauty_good_bonus_4_character_desc:0 "Bezaubernd, betörend und liebreizend: [ROOT.GetCharacter.GetFirstNameNoTooltip] überstrahlt mit [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Schönheit die meisten anderen."
+ trait_beauty_good_bonus_5_character_desc:0 "Bezaubernd, betörend und liebreizend: [ROOT.GetCharacter.GetFirstNameNoTooltip] überstrahlt mit [ROOT.GetCharacter.Custom('DE_PRO_POS_S_3P')]er Schönheit die meisten anderen."
+ 
+ #Need German Translations
+ trait_intellect_good_bonus:0 "Shining Geniuses"
+ trait_beauty_good_bonus:0 "Dazzlying Beauties"
+ trait_physique_good_bonus:0 "Divine Stars"

@@ -1,0 +1,163 @@
+﻿#This is used on child birth (would have inherited but can't) and at game start (can only come from Ruler Designer) so sets the trait to inactive rather than removing it
+set_inactive_illegal_mgt_bonus_traits_effect = {
+	if = {
+		limit = {
+			NOT = { has_trait = intellect_good_3 }
+			has_trait = intellect_good_bonus
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_1 }
+			make_trait_inactive = intellect_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_2 }
+			make_trait_inactive = intellect_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_3 }
+			make_trait_inactive = intellect_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_4 }
+			make_trait_inactive = intellect_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_5 }
+			make_trait_inactive = intellect_good_bonus_5 
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_trait = beauty_good_3 }
+			has_trait = beauty_good_bonus
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_1 }
+			make_trait_inactive = beauty_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_2 }
+			make_trait_inactive = beauty_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_3 }
+			make_trait_inactive = beauty_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_4 }
+			make_trait_inactive = beauty_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_5 }
+			make_trait_inactive = beauty_good_bonus_5 
+		}		
+	}
+	if = {
+		limit = {
+			has_trait = physique_good_bonus
+			NOT = { has_trait = physique_good_3}
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_1 }
+			make_trait_inactive = physique_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_2 }
+			make_trait_inactive = physique_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_3 }
+			make_trait_inactive = physique_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_4 }
+			make_trait_inactive = physique_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_5 }
+			make_trait_inactive = physique_good_bonus_5 
+		}		
+	}
+}
+
+#This is the one for the  yearly clean up pulse, dunno how anyone got this but if they did nuke it.
+remove_illegal_mgt_bonus_traits_effect = {
+	if = {
+		limit = {
+			has_trait = intellect_good_bonus
+			NOT = { has_trait = intellect_good_3 }
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_1 }
+			remove_trait = intellect_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_2 }
+			remove_trait = intellect_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_3 }
+			remove_trait = intellect_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_4 }
+			remove_trait = intellect_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = intellect_good_bonus_5 }
+			remove_trait = intellect_good_bonus_5 
+		}
+	}
+	if = {
+		limit = {
+			has_trait = beauty_good_bonus
+			NOT = { has_trait = beauty_good_3 }
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_1 }
+			remove_trait = beauty_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_2 }
+			remove_trait = beauty_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_3 }
+			remove_trait = beauty_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_4 }
+			remove_trait = beauty_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = beauty_good_bonus_5 }
+			remove_trait = beauty_good_bonus_5 
+		}		
+	}
+	if = {
+		limit = {
+			has_trait = physique_good_bonus
+			NOT = { has_trait = physique_good_3}
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_1 }
+			remove_trait = physique_good_bonus_1 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_2 }
+			remove_trait = physique_good_bonus_2 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_3 }
+			remove_trait = physique_good_bonus_3 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_4 }
+			remove_trait = physique_good_bonus_4 
+		}
+		if = {
+			limit = { has_trait = physique_good_bonus_5 }
+			remove_trait = physique_good_bonus_5 
+		}
+	}
+}

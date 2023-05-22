@@ -1,0 +1,823 @@
+﻿giant = {
+	opposites = {
+		dwarf
+	}
+
+	prowess = 6
+
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+	genetic = yes
+	physical = yes
+	good = yes
+
+	birth = 0.5
+	random_creation = 0.5
+	
+	attraction_opinion = 5
+	tribal_government_opinion = 10
+	vassal_opinion = 5
+	same_opinion = 20
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.5
+	}
+	
+	ruler_designer_cost = 60
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_giant_desc
+			}
+			desc = trait_giant_character_desc
+		}
+	}
+}
+
+# Intellect (+4) - Genius 1 Star
+intellect_good_bonus_1 = {
+	opposites = {
+		dull
+		intellect_bad
+		intellect_good_2
+		intellect_good_1
+		intellect_good_bonus_2
+		intellect_good_bonus_3
+		intellect_good_bonus_4
+		intellect_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	
+	monthly_lifestyle_xp_gain_mult = 0.1
+
+	group = intellect_good_bonus
+	level = 1
+		
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 60
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_intellect_good_bonus_1_desc
+			}
+			desc = trait_intellect_good_bonus_1_character_desc
+		}
+	}
+}
+
+# Intellect (+5) - Genius 2 Stars
+intellect_good_bonus_2 = {
+	opposites = {
+		dull
+		intellect_bad
+		intellect_good_2
+		intellect_good_1
+		intellect_good_bonus_1
+		intellect_good_bonus_3
+		intellect_good_bonus_4
+		intellect_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	
+	monthly_lifestyle_xp_gain_mult = 0.2
+
+	group = intellect_good_bonus
+	level = 2
+	
+
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 140
+	
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_intellect_good_bonus_2_desc
+			}
+			desc = trait_intellect_good_bonus_2_character_desc
+		}
+	}
+}
+
+# Intellect (+6) - Genius 3 Stars
+intellect_good_bonus_3 = {
+	opposites = {
+		dull
+		intellect_bad
+		intellect_good_2
+		intellect_good_1
+		intellect_good_bonus_1
+		intellect_good_bonus_2
+		intellect_good_bonus_4
+		intellect_good_bonus_5	
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	
+	monthly_lifestyle_xp_gain_mult = 0.3
+
+	group = intellect_good_bonus
+	level = 3
+	
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 220
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_intellect_good_bonus_3_desc
+			}
+			desc = trait_intellect_good_bonus_3_character_desc
+		}
+	}
+}
+
+# Intellect (+7) - Genius 4 Stars
+intellect_good_bonus_4 = {
+	opposites = {
+		dull
+		intellect_bad
+		intellect_good_2
+		intellect_good_1
+		intellect_good_bonus_1
+		intellect_good_bonus_2
+		intellect_good_bonus_3
+		intellect_good_bonus_5	
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 8
+	martial = 8
+	stewardship = 8
+	intrigue = 8
+	learning = 8
+	
+	monthly_lifestyle_xp_gain_mult = 0.4
+
+	group = intellect_good_bonus
+	level = 4
+	
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 300
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_intellect_good_bonus_4_desc
+			}
+			desc = trait_intellect_good_bonus_4_character_desc
+		}
+	}
+}
+
+# Intellect (+8) - Genius 5 Stars
+intellect_good_bonus_5 = {
+	opposites = {
+		dull
+		intellect_bad
+		intellect_good_2
+		intellect_good_1
+		intellect_good_bonus_1
+		intellect_good_bonus_2
+		intellect_good_bonus_4
+		intellect_good_bonus_5	
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 10
+	
+	monthly_lifestyle_xp_gain_mult = 0.5
+
+	group = intellect_good_bonus
+	level = 5
+	
+	ai_rationality = dominant_positive_ai_value
+	
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 380
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_intellect_good_bonus_5_desc
+			}
+			desc = trait_intellect_good_bonus_5_character_desc
+		}
+	}
+}
+
+# Beauty (+4) - Beautiful - 1 Star
+beauty_good_bonus_1 = {
+	opposites = {
+		beauty_bad
+		beauty_good_1
+		beauty_good_2
+		beauty_good_bonus_2
+		beauty_good_bonus_3
+		beauty_good_bonus_4
+		beauty_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 1
+	fertility = 0.1
+	
+	attraction_opinion = 10
+
+	group = beauty_good_bonus
+	level = 1
+	
+	genetic = yes
+	physical = yes
+	good = yes
+	
+	ruler_designer_cost = 40
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beauty_good_bonus_1_desc
+			}
+			desc = trait_beauty_good_bonus_1_character_desc
+		}
+	}
+}
+
+# Beauty (+5) - Beautiful - 2 Stars
+beauty_good_bonus_2 = {
+	opposites = {
+		beauty_bad
+		beauty_good_1
+		beauty_good_2
+		beauty_good_bonus_1
+		beauty_good_bonus_3
+		beauty_good_bonus_4
+		beauty_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 2
+	fertility = 0.2
+	
+	attraction_opinion = 20
+
+	group = beauty_good_bonus
+	level = 2
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 80
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beauty_good_bonus_2_desc
+			}
+			desc = trait_beauty_good_bonus_2_character_desc
+		}
+	}
+}
+
+# Beauty (+6) - Beautiful - 3 Stars
+beauty_good_bonus_3 = {
+	opposites = {
+		beauty_bad
+		beauty_good_1
+		beauty_good_2
+		beauty_good_bonus_1
+		beauty_good_bonus_2
+		beauty_good_bonus_4
+		beauty_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 3
+	fertility = 0.3
+	
+	attraction_opinion = 30
+
+	group = beauty_good_bonus
+	level = 3
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 120
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beauty_good_bonus_3_desc
+			}
+			desc = trait_beauty_good_bonus_3_character_desc
+		}
+	}
+}
+
+# Beauty (+7) - Beautiful - 4 Stars
+beauty_good_bonus_4 = {
+	opposites = {
+		beauty_bad
+		beauty_good_1
+		beauty_good_2
+		beauty_good_bonus_1
+		beauty_good_bonus_2
+		beauty_good_bonus_3
+		beauty_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 4
+	fertility = 0.4
+	
+	attraction_opinion = 40
+
+	group = beauty_good_bonus
+	level = 4
+	
+	genetic = yes
+	physical = yes
+	good = yes
+	
+	
+	ruler_designer_cost = 160
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beauty_good_bonus_4_desc
+			}
+			desc = trait_beauty_good_bonus_4_character_desc
+		}
+	}
+}
+
+# Beauty (+8) - Beautiful - 5 Stars
+beauty_good_bonus_5 = {
+	opposites = {
+		beauty_bad
+		beauty_good_1
+		beauty_good_2
+		beauty_good_bonus_1
+		beauty_good_bonus_2
+		beauty_good_bonus_3
+		beauty_good_bonus_4
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	diplomacy = 5
+	fertility = 0.5
+	
+	attraction_opinion = 50
+
+	group = beauty_good_bonus
+	level = 5
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 200
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beauty_good_bonus_5_desc
+			}
+			desc = trait_beauty_good_bonus_5_character_desc
+		}
+	}
+}
+
+
+
+
+# Physique (+4) - Amazonian (f) / Herculean (m)
+physique_good_bonus_1 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+		physique_good_bonus_2
+		physique_good_bonus_3
+		physique_good_bonus_4
+		physique_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	prowess = 2
+	health = 0.25
+	
+	attraction_opinion = 5
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.25
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 60
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_bonus_male_1
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_bonus_female_1
+			}
+			desc = trait_physique_good_bonus_male_1
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_bonus_1_desc
+			}
+			desc = trait_physique_good_bonus_1_character_desc
+		}
+	}
+
+	group = physique_good_bonus
+	level = 1
+		
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+# Physique (+5) - Amazonian (f) / Herculean (m)
+physique_good_bonus_2 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+		physique_good_bonus_1
+		physique_good_bonus_2
+		physique_good_bonus_4
+		physique_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	prowess = 4
+	health = 0.5
+	
+	attraction_opinion = 10
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.5
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 120
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_bonus_male_2
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_bonus_female_2
+			}
+			desc = trait_physique_good_bonus_male_2
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_bonus_2_desc
+			}
+			desc = trait_physique_good_bonus_2_character_desc
+		}
+	}
+
+	group = physique_good_bonus
+	level = 2
+	
+	
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+# Physique (+6) - Amazonian (f) / Herculean (m)
+physique_good_bonus_3 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+		physique_good_bonus_1
+		physique_good_bonus_2
+		physique_good_bonus_4
+		physique_good_bonus_5
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	prowess = 6
+	health = 0.75
+	
+	attraction_opinion = 15
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.75
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 180
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_bonus_male_3
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_bonus_female_3
+			}
+			desc = trait_physique_good_bonus_male_3
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_bonus_3_desc
+			}
+			desc = trait_physique_good_bonus_3_character_desc
+		}
+	}
+
+	group = physique_good_bonus
+	level = 3
+		
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+# Physique (+7) - Amazonian (f) / Herculean (m)
+physique_good_bonus_4 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+		physique_good_bonus_1
+		physique_good_bonus_2
+		physique_good_bonus_3
+		physique_good_bonus_5	
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	prowess = 8
+	health = 1
+	
+	attraction_opinion = 20
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 1
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 240
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_bonus_male_4
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_bonus_female_4
+			}
+			desc = trait_physique_good_bonus_male_4
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_bonus_4_desc
+			}
+			desc = trait_physique_good_bonus_4_character_desc
+		}
+	}
+
+	group = physique_good_bonus
+	level = 4
+		
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+# Physique (+8) - Amazonian (f) / Herculean (m)
+physique_good_bonus_5 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+		physique_good_bonus_1
+		physique_good_bonus_2
+		physique_good_bonus_3
+		physique_good_bonus_4
+	}
+	
+	birth = 0
+	random_creation = 0
+	
+	prowess = 10
+	health = 1.25
+	
+	attraction_opinion = 25
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 1.25
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 300
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_bonus_male_5
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_bonus_female_5
+			}
+			desc = trait_physique_good_bonus_male_5
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_bonus_5_desc
+			}
+			desc = trait_physique_good_bonus_5_character_desc
+		}
+	}
+
+	group = physique_good_bonus
+	level = 5
+	
+	
+	genetic = yes
+	physical = yes
+	good = yes
+}

@@ -1,0 +1,66 @@
+﻿l_english:
+ # Intellect
+ trait_intellect_good_bonus_1:0 "Genius - 1 Star"
+ trait_intellect_good_bonus_2:0 "Genius - 2 Stars"
+ trait_intellect_good_bonus_3:0 "Genius - 3 Stars"
+ trait_intellect_good_bonus_4:0 "Genius - 4 Stars"
+ trait_intellect_good_bonus_5:0 "Genius - 5 Stars"
+
+ trait_intellect_good_bonus_1_desc:0 "A towering intellect and wits to match, this character is brilliant."
+ trait_intellect_good_bonus_2_desc:0 "A towering intellect and wits to match, this character is brilliant."
+ trait_intellect_good_bonus_3_desc:0 "A towering intellect and wits to match, this character is brilliant."
+ trait_intellect_good_bonus_4_desc:0 "A towering intellect and wits to match, this character is brilliant."
+ trait_intellect_good_bonus_5_desc:0 "A towering intellect and wits to match, this character is brilliant."
+
+ trait_intellect_good_bonus_1_character_desc:0 "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
+ trait_intellect_good_bonus_2_character_desc:0 "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
+ trait_intellect_good_bonus_3_character_desc:0 "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
+ trait_intellect_good_bonus_4_character_desc:0 "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
+ trait_intellect_good_bonus_5_character_desc:0 "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
+ 
+ # Physique
+ trait_physique_good_bonus_male_1:0 "Herculean - 1 Star"
+ trait_physique_good_bonus_female_1:0 "Amazonian - 1 Star"
+ trait_physique_good_bonus_male_2:0 "Herculean - 2 Stars"
+ trait_physique_good_bonus_female_2:0 "Amazonian - 2 Stars"
+ trait_physique_good_bonus_male_3:0 "Herculean - 3 Stars"
+ trait_physique_good_bonus_female_3:0 "Amazonian - 3 Stars"
+ trait_physique_good_bonus_male_4:0 "Herculean - 4 Stars"
+ trait_physique_good_bonus_female_4:0 "Amazonian - 4 Stars"
+ trait_physique_good_bonus_male_5:0 "Herculean - 5 Stars"
+ trait_physique_good_bonus_female_5:0 "Amazonian - 5 Stars"
+
+ trait_physique_good_bonus_1_desc:0 "Powerful, healthy, and strong; this character's body is sublime."
+ trait_physique_good_bonus_2_desc:0 "Powerful, healthy, and strong; this character's body is sublime."
+ trait_physique_good_bonus_3_desc:0 "Powerful, healthy, and strong; this character's body is sublime."
+ trait_physique_good_bonus_4_desc:0 "Powerful, healthy, and strong; this character's body is sublime."
+ trait_physique_good_bonus_5_desc:0 "Powerful, healthy, and strong; this character's body is sublime."
+
+ trait_physique_good_bonus_1_character_desc:1 "Powerful, healthy, and strong; [ROOT.GetCharacter.GetFirstNameNoTooltip] has a sublime [ROOT.Char.Custom('FemaleMale')] physique."
+ trait_physique_good_bonus_2_character_desc:1 "Powerful, healthy, and strong; [ROOT.GetCharacter.GetFirstNameNoTooltip] has a sublime [ROOT.Char.Custom('FemaleMale')] physique."
+ trait_physique_good_bonus_3_character_desc:1 "Powerful, healthy, and strong; [ROOT.GetCharacter.GetFirstNameNoTooltip] has a sublime [ROOT.Char.Custom('FemaleMale')] physique."
+ trait_physique_good_bonus_4_character_desc:1 "Powerful, healthy, and strong; [ROOT.GetCharacter.GetFirstNameNoTooltip] has a sublime [ROOT.Char.Custom('FemaleMale')] physique."
+ trait_physique_good_bonus_5_character_desc:1 "Powerful, healthy, and strong; [ROOT.GetCharacter.GetFirstNameNoTooltip] has a sublime [ROOT.Char.Custom('FemaleMale')] physique."
+
+ # Beauty
+ trait_beauty_good_bonus_1:0 "Beautiful - 1 Star"
+ trait_beauty_good_bonus_2:0 "Beautiful - 2 Stars"
+ trait_beauty_good_bonus_3:0 "Beautiful - 3 Stars"
+ trait_beauty_good_bonus_4:0 "Beautiful - 4 Stars"
+ trait_beauty_good_bonus_5:0 "Beautiful - 5 Stars"
+
+ trait_beauty_good_bonus_1_desc:0 "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
+ trait_beauty_good_bonus_2_desc:0 "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
+ trait_beauty_good_bonus_3_desc:0 "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
+ trait_beauty_good_bonus_4_desc:0 "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
+ trait_beauty_good_bonus_5_desc:0 "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
+
+ trait_beauty_good_bonus_1_character_desc:0 "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+ trait_beauty_good_bonus_2_character_desc:0 "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+ trait_beauty_good_bonus_3_character_desc:0 "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+ trait_beauty_good_bonus_4_character_desc:0 "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+ trait_beauty_good_bonus_5_character_desc:0 "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+ 
+ trait_intellect_good_bonus:0 "Shining Geniuses"
+ trait_beauty_good_bonus:0 "Dazzlying Beauties"
+ trait_physique_good_bonus:0 "Divine Stars"

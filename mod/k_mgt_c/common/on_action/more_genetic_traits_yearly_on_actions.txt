@@ -1,0 +1,12 @@
+﻿random_yearly_everyone_pulse = {
+	on_actions = {
+		remove_illegal_mgt_bonus_traits
+	}
+}
+
+#Cleanup illegal characters that somehow got the bonus trait
+remove_illegal_mgt_bonus_traits = {
+	effect = {
+		remove_illegal_mgt_bonus_traits_effect = yes
+	}
+}

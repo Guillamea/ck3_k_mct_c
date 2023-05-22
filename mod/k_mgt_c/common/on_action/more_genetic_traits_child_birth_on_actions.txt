@@ -1,0 +1,113 @@
+﻿on_birth_child = {
+	on_actions = {
+		mgt_on_birth_child
+	}
+}
+
+mgt_on_birth_child = {
+	# Special Genius Bonus Ranks
+	#Make the Advanced Trait Inactive if the child misses out on the lynchpin trait
+	effect = {
+		hidden_effect = {
+			scope:child = {
+				set_inactive_illegal_mgt_bonus_traits_effect = yes 
+			}
+		}
+		
+		#Add base rank of bonus trait if both (real) parents have the enabling trait and child doesn't already have matching trait
+		#Random chance is hard coded to match the defined chance of Strengthening 
+		hidden_effect = {			
+			scope:child = {
+				set_local_variable = {
+					name = strengthen_chance
+					value = {
+						value = 50
+						if = {
+							limit = {
+								exists = scope:child.dynasty
+								scope:child.dynasty = { has_dynasty_perk = blood_legacy_2 }
+								OR = { # The child must have a real parent of the Dynasty...
+									AND = {
+										exists= scope:mother
+										scope:mother.dynasty = scope:child.dynasty
+									}
+									AND = {
+										exists= scope:real_father
+										scope:real_father.dynasty = scope:child.dynasty
+									}
+								}
+							}
+							multiply = 1.3
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_trait = intellect_good_3
+						NOT = { has_trait = intellect_good_bonus }
+						exists =  scope:mother 
+						scope:mother = { 
+							OR = { has_trait = intellect_good_3
+								   has_inactive_trait = intellect_good_3
+							}
+						}
+						exists =  scope:real_father 
+						scope:real_father = { 
+							OR = { has_trait = intellect_good_3
+								   has_inactive_trait = intellect_good_3
+							}
+						}
+					}
+					random = {
+						chance = local_var:strengthen_chance
+						add_trait = intellect_good_bonus_1
+					}
+				}
+				if = {
+					limit = {
+						has_trait = physique_good_3
+						NOT = { has_trait = physique_good_bonus }
+						exists = scope:mother 
+						scope:mother = { 
+							OR = { has_trait = physique_good_3
+								   has_inactive_trait = physique_good_3
+							}
+						}
+						exists =  scope:real_father 
+						scope:real_father = { 
+							OR = { has_trait = physique_good_3
+								   has_inactive_trait = physique_good_3
+							}
+						}
+					}
+					random = {
+						chance = local_var:strengthen_chance
+						add_trait = physique_good_bonus_1
+					}
+				}
+				if = {
+					limit = {
+						has_trait = beauty_good_3
+						NOT = { has_trait = beauty_good_bonus }
+						exists =  scope:mother 
+						scope:mother = { 
+							OR = { has_trait = beauty_good_3
+								   has_inactive_trait = beauty_good_3
+							}
+						}
+						exists = scope:real_father 
+						scope:real_father = { 
+							OR = { has_trait = beauty_good_3
+								   has_inactive_trait = beauty_good_3
+							}
+						}
+					}
+					random = {
+						chance = local_var:strengthen_chance
+						add_trait = beauty_good_bonus_1
+					}
+				}
+			}
+		}
+	}
+}
