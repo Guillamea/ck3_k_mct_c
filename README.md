@@ -1,5 +1,5 @@
-# k_mct_c
-More Congenital Traits - Compatibility Version
+# ck3_k_mct_c
+More Congenital Traits - Compatibility Version for Crusader Kings 1.5+
 
 This is a version of <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2298410092" target="_blank">More Congenital Traits</a> that takes an alternative approach to adding higher tiers of the Congenital Traits that's focused on maximising compatability with other mods.
 
